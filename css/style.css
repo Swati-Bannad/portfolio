@@ -9976,7 +9976,14 @@ h6,
 .download-wrap img{ 
   max-width: 100%;
 }
-
+.project-item img {
+  height:220px;
+  object-fit: cover;
+}
+.project-item img:hover{
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+}
 @media(max-width:768px){
   .resume-head{ 
     margin: 20px 0 0 0;
